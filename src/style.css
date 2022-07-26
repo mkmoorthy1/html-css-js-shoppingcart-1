@@ -75,9 +75,12 @@ a {
     border-radius: 2px 2px 0 0;
 }
 
-.details {
+.shop-details {
     display: flex;
     flex-direction: column;
+    vertical-align: center;
+    width: 220px;
+    padding-left: 10px;
 }
 
 .details h3 {
