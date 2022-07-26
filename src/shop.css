@@ -1,51 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: sans-serif
-}
-
-i {
-    cursor: pointer;
-}
-
-
-/* navbar styles */
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #212529;
-    color: #fff;
-    padding: 25px 60px;
-    margin-bottom: 32px;
-}
-
-.cart {
-    background-color: #fff;
-    color: #212529;
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 5px;
-    position: relative;
-}
-
-.cartAmt {
-    background-color: red;
-    font-size: 16px;
-    /* padding: 5px; */
-    color: #fff;
-    position: absolute;
-    top: -15px;
-    right: -10px;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-
 /*
     shop items styles
 */
@@ -104,4 +56,12 @@ i {
 
 .bi-plus-lg {
     color: darkgreen;
+}
+
+
+/*Style Rules for labels and buttons*/
+
+.text-center {
+    text-align: center;
+    margin-bottom: 25px;
 }

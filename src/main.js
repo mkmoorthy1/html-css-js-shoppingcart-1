@@ -2,84 +2,6 @@ let shop = document.getElementById('shop');
 
 //console.log(shop)
 
-let shopItems = [
-	{
-		id: 'pid1',
-		name: 'Casual Shirt',
-		price: 45,
-		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-		img: 'images/img-1.jpg',
-	},
-	{
-		id: 'pid2',
-		name: 'Office Shirt',
-		price: 100,
-		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-		img: 'images/img-2.jpg',
-	},
-	{
-		id: 'pid3',
-		name: 'T Shirt',
-		price: 25,
-		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-		img: 'images/img-3.jpg',
-	},
-	{
-		id: 'pid4',
-		name: 'Suit Shirt',
-		price: 300,
-		desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-		img: 'images/img-4.jpg',
-	},
-	// {
-	// 	id: 5,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },{
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Suit Shirt',
-	// 	price: 300,
-	// 	desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-	// 	img: 'images/img-4.jpg',
-	// }
-];
 
 let basket = JSON.parse(localStorage.getItem('data')) || [];
 
@@ -140,6 +62,8 @@ let decrement = id => {
 	else {
 		search.item--;
 	}
+
+	
 
 	//console.log(basket)
 	update(selectedItem.id);
